@@ -1,0 +1,6 @@
+<suite name="Suite of suites">
+    <suite-files>
+        <suite-file path="TSAuth.xml"></suite-file>
+        <suite-file path="TSUsers.xml"></suite-file>
+    </suite-files>
+</suite>

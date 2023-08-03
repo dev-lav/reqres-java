@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-16T19:35:28 WIB" name="UsersTest" finished-at="2022-05-16T19:35:32 WIB" duration-ms="4186">
+    <groups>
+    </groups>
+    <test started-at="2022-05-16T19:35:28 WIB" name="Users Test" finished-at="2022-05-16T19:35:32 WIB" duration-ms="4186">
+      <class name="users.SingleUserTest">
+        <test-method signature="SuccessGetSingleUser()[pri:0, instance:users.SingleUserTest@23282c25]" started-at="2022-05-16T19:35:30 WIB" name="SuccessGetSingleUser" finished-at="2022-05-16T19:35:31 WIB" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessGetSingleUser -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:users.SingleUserTest@23282c25]" started-at="2022-05-16T19:35:30 WIB" name="setup" finished-at="2022-05-16T19:35:30 WIB" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1b9d9a2b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- users.SingleUserTest -->
+      <class name="users.UpdateUserTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:users.UpdateUserTest@6b419da]" started-at="2022-05-16T19:35:31 WIB" name="setup" finished-at="2022-05-16T19:35:31 WIB" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1b9d9a2b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SuccessUpdateUser()[pri:0, instance:users.UpdateUserTest@6b419da]" started-at="2022-05-16T19:35:31 WIB" name="SuccessUpdateUser" finished-at="2022-05-16T19:35:32 WIB" duration-ms="571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessUpdateUser -->
+      </class> <!-- users.UpdateUserTest -->
+      <class name="users.CreateUserTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:users.CreateUserTest@7920ba90]" started-at="2022-05-16T19:35:31 WIB" name="setup" finished-at="2022-05-16T19:35:31 WIB" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1b9d9a2b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SuccessCreateUser()[pri:0, instance:users.CreateUserTest@7920ba90]" started-at="2022-05-16T19:35:31 WIB" name="SuccessCreateUser" finished-at="2022-05-16T19:35:31 WIB" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessCreateUser -->
+      </class> <!-- users.CreateUserTest -->
+      <class name="users.ListUserTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:users.ListUserTest@4034c28c]" started-at="2022-05-16T19:35:28 WIB" name="setup" finished-at="2022-05-16T19:35:28 WIB" duration-ms="444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1b9d9a2b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SuccessGetListUsers()[pri:0, instance:users.ListUserTest@4034c28c]" started-at="2022-05-16T19:35:28 WIB" name="SuccessGetListUsers" finished-at="2022-05-16T19:35:30 WIB" duration-ms="2236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessGetListUsers -->
+      </class> <!-- users.ListUserTest -->
+    </test> <!-- Users Test -->
+  </suite> <!-- UsersTest -->
+</testng-results>
